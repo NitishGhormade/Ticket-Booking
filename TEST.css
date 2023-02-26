@@ -1,0 +1,147 @@
+#sub{
+    background:#00f1ff;
+    border-top-right-radius:26px;
+    border-bottom-left-radius:26px;
+    font-size:18px;
+    font-weight:bold;
+    margin-top:15px;
+    border:none;
+    padding:5px 10px 5px 10px;
+}
+
+/* #sub:hover{
+    background:red;
+    cursor:pointer;
+} */
+
+body{
+    background:rgba(0,0,0,0.7) url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?cs=srgb&dl=pexels-pixabay-302769.jpg&fm=jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+}
+
+nav{
+    /* border:2px solid green; */
+    display:flex;
+    justify-content:space-between;
+}
+
+nav p{
+    color:red;
+    font-size:30px;
+    font-weight:bold;
+    position: absolute;
+    left:90px;
+    top:0px;
+}
+nav img{
+    /* background:blue; */
+    height:70px;
+    width:80px;
+    border-radius:40px;
+}
+
+nav #nav{
+    /* background:powderblue; */
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+nav #nav a{
+    color:powderblue;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration: none;
+    border:2px solid red;
+    border-radius: 20px;
+    padding:10px;
+    margin-right:10px;
+}
+
+nav #nav a:hover{
+    border:none;
+    color:red;
+}
+
+#nbtn,#uibtn{
+    position:absolute;
+    top:50%;
+    left:45%;
+    font-size: 26px;
+    font-weight:bold;
+    width: 193px;
+    height: 68px;
+    cursor:pointer;
+    color:red;
+    background:none;
+    border-radius:30px;
+    border-color:powderblue;
+}
+
+#ui{
+    position:absolute;
+    top:60%;
+    left:46%;
+    border-radius:30px;
+    width: 154px;
+    height: 40px;
+    text-align:center;
+    font-size:30px;
+}
+
+#nbtn:hover{
+    font-size:30px;
+    width: 213px;
+    height: 78px;
+}
+
+#ckbl{
+    color:red;
+    
+}
+   
+   .lab{
+    color:red;
+    margin-left:80px;
+    font-weight:bold;
+    /* visibility:hidden; */
+   }
+   
+   #ckblb{
+     color:red;
+     font-weight:bold;
+    /* visibility:hidden; */
+   }
+   
+   #plb{
+    margin-left:100px;
+   }
+   
+   #leg{
+       color:red;
+       font-size:35px;
+       font-weight:bold;
+   }
+   
+   #field{
+       border:5px solid black;
+       color:white;
+   }
+
+   #done{
+    box-sizing:border-box;
+    position:absolute;
+    left:40%;
+    top:30%;
+    border-radius:40px;
+    border:4px solid red;
+    font-size:100px;  
+    width: 300px;
+    height: 200px;
+    text-align:center; 
+    padding:35px;
+    color:lightgreen;
+    cursor:pointer;
+   }
